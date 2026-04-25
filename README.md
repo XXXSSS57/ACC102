@@ -14,6 +14,7 @@ This project is an interactive Streamlit application that decomposes **Return on
 
 **Target Audience:** Undergraduate finance and accounting students, retail investors, and equity analysts who want to move beyond headline ROE figures.
 
+🔗Live App: https://acc102.streamlit.app
 ---
 
 ## Five-Factor DuPont Formula
