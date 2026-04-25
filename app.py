@@ -44,9 +44,9 @@ INDUSTRY_BENCH = {
 # ── Load & Cache Data ────────────────────────────────────
 @st.cache_data
 def load_data():
-    inc   = pd.read_csv("data/income_statement.csv",   index_col="fiscal_year", parse_dates=True)
-    bal   = pd.read_csv("data/balance_sheet.csv",      index_col="fiscal_year", parse_dates=True)
-    price = pd.read_csv("data/stock_price_annual.csv", index_col="date",        parse_dates=True)
+    inc   = pd.read_csv("income_statement.csv",   index_col="fiscal_year", parse_dates=True)
+    bal   = pd.read_csv("balance_sheet.csv",      index_col="fiscal_year", parse_dates=True)
+    price = pd.read_csv("stock_price_annual.csv", index_col="date",        parse_dates=True)
 
     inc_c = inc[["Total Revenue","EBIT","Pretax Income","Net Income","ticker"]].copy()
     inc_c.columns = ["Revenue","EBIT","EBT","NetIncome","ticker"]
