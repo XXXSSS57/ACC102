@@ -123,6 +123,11 @@ Run all cells top to bottom in Jupyter Notebook or JupyterLab.
 
 ---
 
+## Product Link
+ https://b23.tv/dB276OS
+
+ ---
+ 
 ## Limitations
 
 - `yfinance` provides approximately 4–5 years of financial statement history. A longer time series would reveal more structural trends.
